@@ -1,0 +1,14 @@
+GET http://localhost:5000/user/
+
+###
+
+POST http://localhost:5000/register
+Content-Type: application/json
+
+{
+    "name": "yuva",
+    "address": "madhapur Hyderabad"
+}
+
+####
+DELETE http://localhost:5000/user/5
